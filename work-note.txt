@@ -1,5 +1,11 @@
 13/09
 mkdir folder_name [for folder create]
+****
+git remote remove <remote-name>
+exp: git remote remove origin [with this the remote 'origin' is removed]
+git remote -v [This command will list the configured remotes, and you should no longer see the deleted remote in the list]
+
+
 $ git config --global --get user.name [to see current user name]
 $ git config --global --get user.email [to see current user email]
 $ git config --global core.editor "code --wait" [to wait the terminal untill the vs code close]
@@ -13,15 +19,7 @@ how git should handle end of lines-
              $git config --global core.autocrlf true[true->input for mac][to config to different pc mac and windows end of lines]
 getting help
 $git config --help
-(ls -a [don't clear about the topic][Akhi@Jannat MINGW64 /d/XAAMP/htdocs/awc/study (master)
-$ ls
-New/  git/  work-note.txt
-
-MINGW64 /d/XAAMP/htdocs/awc/study (master)
-$ ls -a
-./  ../  .git/  New/  git/  work-note.txt
-])
-
+(ls -a)
 WORKFLOW
  git add *.txt [add only text files where extention is .txt]
 
@@ -29,7 +27,25 @@ eacha commit have: id, message, Date/time,Author, Complete Snapshot.
  $echo hello> file1.txt [to create file]
 
 $echo world>> file1.txt [to modify file, (problem ->what will modify with this code)]
+##git add:-
+    # Create and add some files
+    touch README.md
+    echo "Hello, GitHub!" > README.md
 
+    # Add the files to the staging area
+    git add README.md
+
+    # Commit the changes
+    git commit -m "Initial commit"
+Create a New GitHub Repository using git cli:
+curl -u
+"<Mostak1>:<github-token(don't know)>" \
+  -H "Accept: application/vnd.github.v3+json" \
+  -d '{"name":"<repository-name>"}' \
+  https://api.github.com/user/repos
+git remote add origin https://github.com/Mostak1/study-git.git
+git branch -M main
+git push -u origin main
 
 
 
