@@ -1,5 +1,5 @@
 13/09
-
+mkdir folder_name [for folder create]
 $ git config --global --get user.name [to see current user name]
 $ git config --global --get user.email [to see current user email]
 $ git config --global core.editor "code --wait" [to wait the terminal untill the vs code close]
@@ -28,7 +28,7 @@ WORKFLOW
 eacha commit have: id, message, Date/time,Author, Complete Snapshot.
  $echo hello> file1.txt [to create file]
 
-$echo world>> file1.txt [to modify file, (problem)]
+$echo world>> file1.txt [to modify file, (problem ->what will modify with this code)]
 
 
 
