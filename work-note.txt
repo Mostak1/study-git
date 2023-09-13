@@ -26,28 +26,12 @@ WORKFLOW
 eacha commit have: id, message, Date/time,Author, Complete Snapshot.
  $echo hello> file1.txt [to create file]
 
-$echo world>> file1.txt [to modify file, (problem ->what will modify with this code)]
-##git add:-
-    # Create and add some files
-    touch README.md
-    echo "Hello, GitHub!" > README.md
-
-    # Add the files to the staging area
-    git add README.md
-
-    # Commit the changes
-    git commit -m "Initial commit"
-Create a New GitHub Repository using git cli:
-curl -u
-"<Mostak1>:<github-token(don't know)>" \
-  -H "Accept: application/vnd.github.v3+json" \
-  -d '{"name":"<repository-name>"}' \
-  https://api.github.com/user/repos
-git remote add origin https://github.com/Mostak1/study-git.git
-git branch -M main
-git push -u origin main
+$echo world>> file1.txt [to modify file, (problem)]
 
 
+git add 
+git commit -m ".."
+git push --set-upstream origin feature
 
 
 12/09/
