@@ -29,9 +29,15 @@ eacha commit have: id, message, Date/time,Author, Complete Snapshot.
  $echo hello> file1.txt [to create file]
 
 $echo world>> file1.txt [to modify file, (problem)]
+###for marge:-
+git checkout -b main [if created git checkout main]
+git add [what we can add]
 
+next git checkout -b feature [if created git checkout feature]
 
-
+git add 
+git commit -m ".."
+git push --set-upstream origin feature
 
 
 12/09/
